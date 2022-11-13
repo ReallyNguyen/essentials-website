@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essentials</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="loading()">
+    <div id="loader">
+        <img src="https://i.pinimg.com/originals/73/c3/47/73c347a92f0c936ec361b25714e9262f.png" id="logo1" alt="fear of god logo">
+        <h1 class="quote">The fear of god is the beginning of wisdom</h1>
+        <span class="load-bar"></span>    
+    </div>
+
+    <div id="wrapper">
+        <div class="navBar">
+            <img class="logoGif" src="https://i.ibb.co/yPmBg72/ESSENTIALS.gif"><img>
+            <ul class="navLinks">
+                <li style="padding-left:3em"><a href="http://127.0.0.1:5500/01_Home/index.html">HOME</a></li>
+                <li style="padding-left:3em"><a href="http://127.0.0.1:5500/02_Products/index-products.html">SHOP</a></li>
+                <li style="padding-left:3em"><a href="http://127.0.0.1:5500/03_Contact/index-contact.html">CONTACT US</a></li>
+            </ul>
+            <a class="cart" href="http://127.0.0.1:5500/04_Shopping_Bag/index-shopping.html">
+                <button class="bag">BAG</button>
+            </a>
+            <input class="searchBar" type="text" placeholder="SEARCH">
+        </div>
+
+        <div id="first" class="sections">
+            <video playsinline autoplay muted loop id="video">
+                <source src="FearOfGod-EternalCollection.mp4" type="video/mp4">
+            </video>
+            <img src="https://i.pinimg.com/originals/73/c3/47/73c347a92f0c936ec361b25714e9262f.png" id="logo2" alt="fear of god logo">
+            <h3 id="vertical-text">
+                Scroll down to discover <br/>
+                _____________________
+            </h3>
+            <p id="info"> 
+                Presenting the Fear of God Eternal Collection. Handmade in Italy, </br>
+                home to the most renowned ateliers in the world. </br>
+                Crafted in a mix of classic luxury and innovative fabrics sourced </br>
+                from the most reputable mills in Italy and England and expressed </br>
+                through the lens of modernity, functionality and versatility to merge </br>
+                effortlessly into our style vernacular and your wardrobe.
+            </p>
+        </div>
+        <div id="second" class="sections">
+            <div class="banner">
+                <aside>
+                    <p class="marquee">
+                        <span>ESSENTIALS THE SECOND DELIVERY&nbsp;</span>
+                    </p>
+                    <p class="marquee marquee2">
+                        <span>ESSENTIAL THE SECOND DELIVERY&nbsp;</span>
+                    </p>
+                </aside>
+            </div>
+                <img class="picture-2" src="https://media.discordapp.net/attachments/1029827421790289980/1030367898000179250/Screen_Shot_2022-10-12_at_12.55.58_PM.png?width=1780&height=1034" width="100%">
+        </div>
+        <div id="third" class="sections">
+            <h2 class="eternal">
+                <span>E</span>
+                <span>T</span>
+                <span>E</span>
+                <span>R</span>
+                <span>N</span>
+                <span>A</span>
+                <span>L</span>
+            </h2>
+        
+            <div class="text">
+                <h1 class="legacy">A MODERN LEGACY WITH AN</h1>
+                <div>
+                    <h3 class="perspective">PERSPECTIVE</h3>
+                </div>
+            </div>
+        
+            <div id="model">
+                <img src="Screen Shot 2022-10-24 at 10.12.39 PM.png" alt="model" width="100%" height="95%">
+            </div>
+        
+            <div class="circle">
+                <div class="roundtext">
+                    <p>- Essentials - Fear Of God - Essentials - </p>
+                </div>
+            </div>
+        </div>
+        <div id="fourth" class="sections">
+            <img class="imgs" src="https://vman.com/wp-content/uploads/sites/2/2022/08/Look_019-Large.jpeg">
+            <img class="imgs" src="https://pauseonline.s3.eu-west-2.amazonaws.com/wp-content/uploads/2022/08/essentials-fear-of-god-fog-fall-2022-price-7.jpeg">
+            <img class="imgs" src="https://www.essence.com/wp-content/uploads/2022/08/Look_024-scaled.jpg?width=800">
+            <div class="img1cover"><h1 class="title">COLLECTION</h1></div>
+            <div class="img2cover"><h1 class="title">NEW</h1></div>
+            <div class="img3cover"><h1 class="title">F/W '22</h1></div>
+        </div>
+        <div id="fifth" class="sections">
+            <div class="article">
+                <h1 class="header">FEAR OF GOD'S ETERNAL<br>COLLECTION IS HERE. </h1>
+                <p class="description">in conversation with jonathan evans, the designer<br>discusses not following anyone else's rules...</p>
+                <a href=" https://www.esquire.com/style/mens-fashion/a39705626/fear-of-god-eternal-collection-jerry-lorenzo-interview/">
+                    <button class="button-1">View Editorial</button>
+                </a>
+            </div>
+        </div>
+        <div class="navBar-2">
+            <a href="#location" class="active">COUNTRY/REGION: CANADA</a>
+            <a href="http://127.0.0.1:5500/01_Home/index.html">HOME</a>
+            <a href="http://127.0.0.1:5500/02_Products/index-products.html">PRODUCTS</a>
+            <a href="http://127.0.0.1:5500/03_Contact/index-contact.html">CONTACT US</a>
+            <a href="#news"> NEWSLETTER SIGNUP</a>
+            <a href="#privacy">PRIVACY POLICY</a>
+            <a href="#terms">TERMS & CONDITIONS</a>
+            <a href="#FOG">FEAR OF GODÂ® 2022</a>
+        </div>
+    </div>
+    
+    <script>
+        var load;
+        function loading() {
+            load = setTimeout(showPage, 5000);
+        }
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("wrapper").style.display = "block";
+        }
+        const text = document.querySelector('.roundtext p');
+            text.innerHTML = text.innerText.split('').map(
+                (char, i) =>
+                `<span style="transform:rotate(${i * 8.3}deg)">${char}</span>`
+            ).join('');
+    </script> 
+</body> 
+</html>
